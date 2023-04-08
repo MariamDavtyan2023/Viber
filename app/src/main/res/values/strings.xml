@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Viber</string>
+    <string name="viber">Viber</string>
+    <string name="your_email">Your Email:</string>
+    <string name="your_password">Your password:</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="register">Register</string>
 </resources>
