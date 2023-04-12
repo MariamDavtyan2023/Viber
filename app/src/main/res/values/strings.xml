@@ -18,4 +18,5 @@
     <string name="reset_password">Reset Password</string>
     <string name="logout">Logout</string>
     <string name="toast">Please fill in all fields</string>
+    <string name="reset_link_sent">The reset link has been successfully sent</string>
 </resources>
