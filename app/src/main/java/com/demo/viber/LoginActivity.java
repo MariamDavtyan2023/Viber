@@ -37,13 +37,17 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    private void setUpClickListener(){
+    private void setUpClickListener() {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email = editTextEmail.getText().toString().trim();
                 String password = editTextPassword.getText().toString().trim();
-                viewModel.login(email, password);
+                if (!email.isEmpty() && !password.isEmpty()) {
+                    viewModel.login(email, password);
+                }else {
+                    Toast.makeText(LoginActivity.this, getString(R.string.toast), Toast.LENGTH_SHORT).show();
+                }
             }
         });
         textViewForgotPassword.setOnClickListener(new View.OnClickListener() {
@@ -86,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    public static Intent newIntent(Context context){
+    public static Intent newIntent(Context context) {
         return new Intent(context, LoginActivity.class);
     }
 
