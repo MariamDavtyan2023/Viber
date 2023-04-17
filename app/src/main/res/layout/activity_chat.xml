@@ -24,7 +24,7 @@
         android:layout_width="12dp"
         android:layout_height="12dp"
         android:layout_margin="16dp"
-        android:background="@drawable/circle_green"
+        tools:background="@drawable/circle_green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/textViewUser"
         app:layout_constraintBottom_toBottomOf="@id/textViewUser"/>
