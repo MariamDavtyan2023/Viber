@@ -20,4 +20,5 @@
     <string name="toast">Please fill in all fields</string>
     <string name="reset_link_sent">The reset link has been successfully sent</string>
     <string name="type_your_message">Type your message:</string>
+    <string name="empty_message">You cannot send an empty message</string>
 </resources>
